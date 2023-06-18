@@ -41,4 +41,4 @@ jobs:
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         with:
-          image: ghcr.io/uladdzerzh/TCH_zadanie2:latest
+          image: ghcr.io/uladdzerzh/tch_zadanie2:latest
