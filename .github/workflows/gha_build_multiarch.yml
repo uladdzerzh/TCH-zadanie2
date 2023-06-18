@@ -32,7 +32,7 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: ghcr.io/uladdzerzh/TCH_zadanie2:latest
+          tags: ghcr.io/uladdzerzh/tch_zadanie2:latest
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,dest=/tmp/.buildx-cache
 
