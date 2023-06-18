@@ -32,7 +32,7 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: ghcr.io/uladdzerzh/tch_zadanie2:latest
+          tags: ghcr.io/uladdzerzh/TCH-zadanie2:latest
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,dest=/tmp/.buildx-cache
 
@@ -41,4 +41,4 @@ jobs:
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         with:
-          image: ghcr.io/uladdzerzh/tch_zadanie2:latest
+          image: ghcr.io/uladdzerzh/TCH-zadanie2:latest
