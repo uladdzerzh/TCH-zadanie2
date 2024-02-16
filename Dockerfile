@@ -6,7 +6,7 @@ RUN npm install
 COPY . .
 RUN npm run build
 
-FROM nginx:1.25.0
+FROM nginx:1.25.4
 
 LABEL org.opencontainers.image.source=https://github.com/uladdzerzh/zadanie2
 
